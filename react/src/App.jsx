@@ -1,5 +1,6 @@
 import './App.css'
 import * as THREE from "three"
+
 function App() {
 
 
@@ -26,10 +27,10 @@ function App() {
 
   
   function animate(){
-    requestAnimationFrame( animate )
     renderer.render( scene, camera)
-    cube.rotation.x = 0.02
-    cube.rotation.y = 0.02
+    requestAnimationFrame( animate )
+    cube.rotation.x += 0.01
+    cube.rotation.y += 0.01
 
   }
 

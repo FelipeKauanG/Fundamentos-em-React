@@ -27,7 +27,14 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
+/*#render{
+  position: relative;
+  transform: translate(-50%);
+  top: 50%;
+  border-radius: 10px;
+  left: 50%;
+  background-color: red;
+}*/
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
