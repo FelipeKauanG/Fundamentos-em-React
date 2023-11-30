@@ -28,7 +28,7 @@ camera.position.z = 5
 
 //fazer uma função de animação e renderizar
 function animate(){
-  requestAnimationFrame( animate)
+  requestAnimationFrame(animate)
   cube.rotation.z += 0.01
   cube.rotation.y += 0.01
 
